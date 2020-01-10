@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "author": "Artem Kostritsa",
+  "name": "Amazon Scout",
+  "description": "Browser extension for Amazon",
+  "version": "1.0.0",
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_title": "Amazon Scout"
+  },
+  "icons": {
+    "16": "image/icon/16.png",
+    "48": "image/icon/48.png",
+    "128": "image/icon/128.png"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "content_security_policy": "script-src 'self' https://www.google-analytics.com; object-src 'self'"
+}
